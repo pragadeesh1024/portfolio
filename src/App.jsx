@@ -163,10 +163,10 @@ function App() {
   ];
 
   const portfolioItems = [
-    { src: '/b1.png', title: 'E-Commerce Dashboard', tags: ['React', 'Chart.js'] },
-    { src: '/i3.png', title: 'SaaS Platform', tags: ['Next.js', 'Tailwind'] },
-    { src: '/i4.png', title: 'Portfolio V1', tags: ['Legacy', 'CSS'] },
-    { src: '/i5.jpg', title: 'Future AI System', tags: ['OpenAI', 'React'] },
+    { src: 'b1.png', title: 'E-Commerce Dashboard', tags: ['React', 'Chart.js'] },
+    { src: 'i3.png', title: 'SaaS Platform', tags: ['Next.js', 'Tailwind'] },
+    { src: 'i4.png', title: 'Portfolio V1', tags: ['Legacy', 'CSS'] },
+    { src: 'i5.jpg', title: 'Future AI System', tags: ['OpenAI', 'React'] },
   ];
 
   return (
@@ -214,7 +214,7 @@ function App() {
             </p>
             <div className="header__btns">
               <a href="#contact" className="btn btn-primary">Hire Me <RiBriefcaseLine /></a>
-              <a href="/Pragadeesh_CV.png" download className="btn btn-secondary">Download CV <RiDownloadLine /></a>
+              <a href="Pragadeesh_CV.png" download className="btn btn-secondary">Download CV <RiDownloadLine /></a>
             </div>
           </motion.div>
 
@@ -226,7 +226,7 @@ function App() {
               transition={{ duration: 0.8 }}
             >
               <div className="hero-shape"></div>
-              <img src="/pragadeesh_new.jpg" alt="Pragadeesh" style={{ borderRadius: '30px', position: 'relative', zIndex: 2 }} />
+              <img src="pragadeesh_new.jpg" alt="Pragadeesh" style={{ borderRadius: '30px', position: 'relative', zIndex: 2 }} />
             </motion.div>
           </Tilt>
         </div>
@@ -234,7 +234,7 @@ function App() {
 
       <section className="section__container about__container" id="about">
         <div>
-          <img src="/pragadeesh2.jpg" alt="About Me" style={{ borderRadius: '20px', marginBottom: '2rem', width: '100%', boxShadow: '0 10px 30px rgba(0,0,0,0.3)' }} />
+          <img src="pragadeesh2.jpg" alt="About Me" style={{ borderRadius: '20px', marginBottom: '2rem', width: '100%', boxShadow: '0 10px 30px rgba(0,0,0,0.3)' }} />
           <span className="section__subtitle">About Me</span>
           <h2 className="section__title" style={{ marginBottom: '2rem' }}>Technical Proficiency</h2>
           <div className="skills-wrapper">
